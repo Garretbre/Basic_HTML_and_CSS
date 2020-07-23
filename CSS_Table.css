@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<header>
+<h1>Guys Poker Card Game Night</h1>
+<link href="HTML_Table.html" rel="stylesheet" type="text/css">
+</header>
+<table style="width:75%">
+<tr>
+<th>Name</th>
+<th>Phone Number</th>
+<th>Email</th>
+<th>Notes</th>
+</tr>
+<tr>
+<td>Johnny Quick</td>
+<td>5034756892</td>
+<td>JohnnyFastHands@cards.com</td>
+<td>Best Friend</td>
+</tr>
+<tr>
+<td>Larry Pickle</td>
+<td>5031230987</td>
+<td>Doesntlikepickles@sandwhich.com<td>
+<td>Best Friend's Best Friend</td>
+</tr>
+
+Table {
+	border: 1px solid silver;
+}
+td:hover {
+	background-color: yellow;
+	color: black;
+}
+tr, th {
+	background-color: black;
+	color: cornsilk;
+}
+tr, td {
+	background-color: darkgreen;
+	color: white;
+}
+
+
+</table>
+</body>
+</html>
