@@ -1,8 +1,8 @@
 html {
     font-family: san-serif;
     font-size: 62.5%;
-    webkit-tap-highlight-color: rgba(0,0,0,0);
-    webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-text-size-adjust: 100%;
     -ma-text-size-adjust: 100%;
 }
 
@@ -10,8 +10,8 @@ body {
     font-size: 14px;
     margin: 0;
     font-family: "Helvetica Neue","Helvetica","Arial","sans-serif";
-    line height: 1.42857143;
-    color: #333;
+    line-height: 1.42857143px;
+    color: #333333;
     background-color: #fff;
 }
 
@@ -22,12 +22,12 @@ nav
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: 'Open Sans'. sans-serif
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
     line-height: 50px;
-    font-wieght: 900;
+    font-weight: 900;
     font-size: 30px;
     text-transform: uppercase;
     text-align: center;
@@ -117,7 +117,7 @@ content: " ";
 
 .wrap {
     height: 100%;
-    weight: 100%
+    width: 100%;
     position: absolute;
     overflow: hidden;
     top: 0;
@@ -135,8 +135,8 @@ content: " ";
     z-index: 100;
     /* background-color: rgba(255, 255, 255, 0.5);*/
 
-    #home {
-        background: url(../images/planets.jpg) no-repeats 50% 50%;
+#home {
+        background: url(../Index/images/Thumb/planets.jpg) no-repeat 50% 50%;
         background-attachment: fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -145,27 +145,26 @@ content: " ";
         width: 100%;
         display: block;
         height: auto;
-        padding-top: 350px
-        padding-bottom: 500px
+        padding-top: 350px;
+        padding-bottom: 500px;
         color: #fff;
-    }
-
 }
 
+
+
 .head-main {
-    text-shadow: 2px 4px 5px rgba(0,0,0,0.9)
-    font-variant: small-cape;
+    text-shadow: 2px 4px 5px rgba(0,0,0,0.9);
+    font-variant: small-caps;
     color: #fff;
     letter-spacing: 5pt;
     word-spacing: 21pt;
-    font-size: 4.5cm;
+    font-size: 4.5em;
     text-align: left;
     font-family: impact, sans-serif;
     line-height: 2;
     font-weight: 900;
-    border: 
-    padding:
-
+    border: 5px double #fff;
+    padding: 50px;
 }
 
 .head-sub-main {
@@ -176,7 +175,7 @@ content: " ";
 }
 
 .head-last {
-    fo: 18px;
+    font: 18px;
     font-weight: 900;
     padding: 5px 20px 20px 20px;
     border: 1px dotted #fff;
@@ -184,14 +183,14 @@ content: " ";
 }
 
 .flex-container {
-    display: -webkit-flex:
+    display: -webkit-flex;
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
     border-radius: 8px;
     margin: 0px auto;
     background-color: rgba(100,65,0,.3);
-    box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.5)
+    box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.5);
 }
 
 #contact {
@@ -204,16 +203,17 @@ content: " ";
     border-radius: 8px;
     margin: 0px auto;
     background-color: rgba(100,65,0,0.3);
-    box-shadow: -1px -1px 1px 0 rgba(0,0,0,1), 1px 2px 10px o rgba(0,0,0,0.5)
+    box-shadow: -1px -1px 1px 0 rgba(0,0,0,1), 1px 2px 10px o rgba(0,0,0,0.5);
 
 }
 
-,reservation h2 {
-    width: 70%text-align: center;
+.reservation h2 {
+    width: 70%;
+    text-align: center;
     margin: 0 auto;
     color: #13161B;
     font-weight: 500;
-    font-size: 1.3cm;
+    font-size: 1.3em;
     letter-spacing: 0pt;
     word-spacing: 0pt;
 }
@@ -248,7 +248,7 @@ content: " ";
     margin: 2% auto;
     border-radius: 7px;
     background: rgb(227,222,222);
-    box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.3)
+    box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.3);
     font-family: 'Raleway', sans-serif;
 }
 
@@ -257,7 +257,7 @@ content: " ";
     outline: none;
     font-weight: 600;
     color: #8D8E8F;
-    padding 2% 1% 2% 7%
+    padding: 2% 1% 2% 7%;
     width: 80%;
     border-top: 1px solid #090B0D;
     border-right: 2px solid #424549;
@@ -265,12 +265,12 @@ content: " ";
     border-left: 1px solid #090B0D;
     margin: 10px lem;
     border-radius: 7px;
-    background: inset 0px 3px 0px 0px rgba(5,5,5,0.15)
+    background: inset 0px 3px 0px 0px rgba(5,5,5,0.15);
     font-family: 'Raleway', sans-serif;
 }
 
 .reservation input[type="text"]thover {
-    box-shadow: 0 0 10px rgba(100,65,0,.8)
+    box-shadow: 0 0 10px rgba(100,65,0,.8);
 }
 
 .form-spacer {
@@ -278,8 +278,7 @@ content: " ";
 }
 
 .terms {
-    margin: 30px 1px 0 0 ;
-    top-margin: 13%;
+    margin: 30px 1px 0 0;
     padding-left: 52px;
     font-size: 14px;
     line-height: 5px;
@@ -289,7 +288,6 @@ content: " ";
     font-weight: 600;
     position: relative;
     display: inline;
-    float: right;
 }
 
 .terms:hover {
@@ -309,7 +307,7 @@ content: " ";
     padding: 7px 0px;
     width: 25%;
     font-size: 18px;
-    transition: border-color 0.3% color 0.3% background-color 0.3%
+    transition: border-color 0.3% color 0.3% background-color 0.3%;
     border-radius: 7px;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,0.3);
 }
@@ -357,4 +355,3 @@ content: " ";
         width:1170px;
     }
 }
-

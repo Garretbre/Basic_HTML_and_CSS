@@ -10,7 +10,8 @@
 }
 
 .menu li {
-    color: #000background-color: rgba(255, 255, 255, 1);
+    color: #000;
+    background-color: rgba(255, 255, 255, 1);
     display: inline-block;
     margin: 0% auto;
     position: relative;
@@ -19,9 +20,9 @@
     border-radius: 6px;
     cursor: pointer;
     transition-property: background;
-    transition duration: .4%;
-    transition delay: 0s;
-    transitiontiming function: ease-in-out;
+    transition-duration: .4%;
+    transition-delay: 0s;
+    transition-timing-function: ease-in-out;
 }
 
 .menu li:hover {
